@@ -241,29 +241,29 @@ namespace ETLSTD
     static const float_round_style round_style;
   };
 
-  const bool numeric_limits<bool>::is_specialized = true;
-  const int numeric_limits<bool>::digits = 1;
-  const int numeric_limits<bool>::digits10 = 0;
-  const int numeric_limits<bool>::max_digits10 = 0;
-  const bool numeric_limits<bool>::is_signed = false;
-  const bool numeric_limits<bool>::is_integer = true;
-  const bool numeric_limits<bool>::is_exact = true;
-  const int numeric_limits<bool>::radix = 2;
-  const int numeric_limits<bool>::min_exponent = 0;
-  const int numeric_limits<bool>::min_exponent10 = 0;
-  const int numeric_limits<bool>::max_exponent = 0;
-  const int numeric_limits<bool>::max_exponent10 = 0;
-  const bool numeric_limits<bool>::has_infinity = false;
-  const bool numeric_limits<bool>::has_quiet_NaN = false;
-  const bool numeric_limits<bool>::has_signaling_NaN = false;
-  const float_denorm_style numeric_limits<bool>::has_denorm = denorm_absent;
-  const bool numeric_limits<bool>::has_denorm_loss = false;
-  const bool numeric_limits<bool>::is_iec559 = false;
-  const bool numeric_limits<bool>::is_bounded = true;
-  const bool numeric_limits<bool>::is_modulo = false;
-  const bool numeric_limits<bool>::traps = false;
-  const bool numeric_limits<bool>::tinyness_before = false;
-  const float_round_style numeric_limits<bool>::round_style = round_toward_zero;
+//  const bool numeric_limits<bool>::is_specialized = true;
+//  const int numeric_limits<bool>::digits = 1;
+//  const int numeric_limits<bool>::digits10 = 0;
+//  const int numeric_limits<bool>::max_digits10 = 0;
+//  const bool numeric_limits<bool>::is_signed = false;
+//  const bool numeric_limits<bool>::is_integer = true;
+//  const bool numeric_limits<bool>::is_exact = true;
+//  const int numeric_limits<bool>::radix = 2;
+//  const int numeric_limits<bool>::min_exponent = 0;
+//  const int numeric_limits<bool>::min_exponent10 = 0;
+//  const int numeric_limits<bool>::max_exponent = 0;
+//  const int numeric_limits<bool>::max_exponent10 = 0;
+//  const bool numeric_limits<bool>::has_infinity = false;
+//  const bool numeric_limits<bool>::has_quiet_NaN = false;
+//  const bool numeric_limits<bool>::has_signaling_NaN = false;
+//  const float_denorm_style numeric_limits<bool>::has_denorm = denorm_absent;
+//  const bool numeric_limits<bool>::has_denorm_loss = false;
+//  const bool numeric_limits<bool>::is_iec559 = false;
+//  const bool numeric_limits<bool>::is_bounded = true;
+//  const bool numeric_limits<bool>::is_modulo = false;
+//  const bool numeric_limits<bool>::traps = false;
+//  const bool numeric_limits<bool>::tinyness_before = false;
+//  const float_round_style numeric_limits<bool>::round_style = round_toward_zero;
 
   //***************************************************************************
   // char
@@ -456,13 +456,13 @@ namespace ETLSTD
     static const int max_exponent10;
   };
 
-  const int numeric_limits<float>::digits = FLT_MANT_DIG;
-  const int numeric_limits<float>::max_digits10 = ETL_LOG2(FLT_MANT_DIG) + 2;
-  const int numeric_limits<float>::digits10 = FLT_DIG;
-  const int numeric_limits<float>::min_exponent = FLT_MIN_EXP;
-  const int numeric_limits<float>::min_exponent10 = FLT_MIN_10_EXP;
-  const int numeric_limits<float>::max_exponent = FLT_MAX_EXP;
-  const int numeric_limits<float>::max_exponent10 = FLT_MAX_10_EXP;
+//  const int numeric_limits<float>::digits = FLT_MANT_DIG;
+//  const int numeric_limits<float>::max_digits10 = ETL_LOG2(FLT_MANT_DIG) + 2;
+//  const int numeric_limits<float>::digits10 = FLT_DIG;
+//  const int numeric_limits<float>::min_exponent = FLT_MIN_EXP;
+//  const int numeric_limits<float>::min_exponent10 = FLT_MIN_10_EXP;
+//  const int numeric_limits<float>::max_exponent = FLT_MAX_EXP;
+//  const int numeric_limits<float>::max_exponent10 = FLT_MAX_10_EXP;
 
   //***************************************************************************
   // double
@@ -487,13 +487,13 @@ namespace ETLSTD
     static const int max_exponent10;
   };
 
-  const int numeric_limits<double>::digits = DBL_MANT_DIG;
-  const int numeric_limits<double>::max_digits10 = ETL_LOG2(DBL_MANT_DIG) + 2;
-  const int numeric_limits<double>::digits10 = DBL_DIG;
-  const int numeric_limits<double>::min_exponent = DBL_MIN_EXP;
-  const int numeric_limits<double>::min_exponent10 = DBL_MIN_10_EXP;
-  const int numeric_limits<double>::max_exponent = DBL_MAX_EXP;
-  const int numeric_limits<double>::max_exponent10 = DBL_MAX_10_EXP;
+//  const int numeric_limits<double>::digits = DBL_MANT_DIG;
+//  const int numeric_limits<double>::max_digits10 = ETL_LOG2(DBL_MANT_DIG) + 2;
+//  const int numeric_limits<double>::digits10 = DBL_DIG;
+//  const int numeric_limits<double>::min_exponent = DBL_MIN_EXP;
+//  const int numeric_limits<double>::min_exponent10 = DBL_MIN_10_EXP;
+//  const int numeric_limits<double>::max_exponent = DBL_MAX_EXP;
+//  const int numeric_limits<double>::max_exponent10 = DBL_MAX_10_EXP;
 
   //***************************************************************************
   // long double
@@ -518,13 +518,13 @@ namespace ETLSTD
     static const int max_exponent10;
   };
 
-  const int numeric_limits<long double>::digits = LDBL_MANT_DIG;
-  const int numeric_limits<long double>::max_digits10 = ETL_LOG2(LDBL_MANT_DIG) + 2;
-  const int numeric_limits<long double>::digits10 = LDBL_DIG;
-  const int numeric_limits<long double>::min_exponent = LDBL_MIN_EXP;
-  const int numeric_limits<long double>::min_exponent10 = LDBL_MIN_10_EXP;
-  const int numeric_limits<long double>::max_exponent = LDBL_MAX_EXP;
-  const int numeric_limits<long double>::max_exponent10 = LDBL_MAX_10_EXP;
+//  const int numeric_limits<long double>::digits = LDBL_MANT_DIG;
+//  const int numeric_limits<long double>::max_digits10 = ETL_LOG2(LDBL_MANT_DIG) + 2;
+//  const int numeric_limits<long double>::digits10 = LDBL_DIG;
+//  const int numeric_limits<long double>::min_exponent = LDBL_MIN_EXP;
+//  const int numeric_limits<long double>::min_exponent10 = LDBL_MIN_10_EXP;
+//  const int numeric_limits<long double>::max_exponent = LDBL_MAX_EXP;
+//  const int numeric_limits<long double>::max_exponent10 = LDBL_MAX_10_EXP;
 }
 
 #endif
